@@ -23,6 +23,9 @@ body {
     color: var(--clr-white);
 }
 
+
+/* Home Starts */
+
 .home {
     min-height: 100vh;
     background: url(./assets/home/background-home-desktop.jpg) no-repeat center/cover;
@@ -56,6 +59,35 @@ body {
     padding-block: 2rem;
     cursor: pointer;
     text-decoration: none;
+    position: relative;
+}
+
+.navbar a.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--clr-white);
+    bottom: 0;
+    left: 0;
+    transition: .3s;
+    transform-origin: left;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: var(--clr-light);
+    bottom: 0;
+    left: 0;
+    transition: .3s;
+    transform-origin: left;
+}
+
+.navbar a:hover::after {
+    width: 100%;
 }
 
 .navbar a span {
@@ -124,3 +156,5 @@ body {
     letter-spacing: 1.3px;
     border: 1px solid var(--clr-light);
 }
+
+/* Home Ends */
