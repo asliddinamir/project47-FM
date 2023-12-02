@@ -158,3 +158,13 @@ body {
 }
 
 /* Home Ends */
+
+/* Destination-Moon Starts */
+
+.destination {
+    min-height: 100vh;
+    background: url(./assets/destination/background-destination-desktop.jpg) no-repeat center/cover;
+}
+
+
+/* Destination-Moon Ends */
