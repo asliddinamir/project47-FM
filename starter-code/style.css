@@ -70,3 +70,57 @@ body {
     position: absolute;
     left: 10rem;
 }
+
+.home_container {
+    display: flex;
+    align-items: end;
+    padding: 8rem;
+    justify-content: space-between;
+}
+
+.home_conInfo {
+    width: 50%;
+}
+
+.home_conInfo h3 {
+    font-size: 28px;
+    font-family: var(--ff-sans-cond);
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: var(--clr-light);
+}
+
+.home_conInfo h1 {
+    font-size: 140px;
+    font-family: var(--ff-serif);
+    font-weight: normal;
+}
+
+.home_conInfo p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 75%;
+    line-height: 1.5;
+    color: var(--clr-light);
+}
+
+.home_conBtn {
+    border-radius: 50%;
+    background-color: var(--clr-white);
+    color: black;
+    font-family: var(--ff-serif);
+    border: 1px solid var(--clr-white);
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-right: 5rem;
+    transition: .2s ease;
+}
+
+.home_conBtn:hover {
+    background-color: var(--clr-light);
+    letter-spacing: 1.3px;
+    border: 1px solid var(--clr-light);
+}
