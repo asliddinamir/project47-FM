@@ -473,6 +473,27 @@ p {
     .hr {
         width: 8vw;
     }
+
+    .destination_container {
+        margin: 4rem 2rem;
+        align-items: start;
+    }
+
+    .destination_container_pic {
+        width: 60%;
+    }
+
+    .destination_container_pic img {
+        width: 80%;
+    }
+
+    .destination_container_info {
+        width: 50%;
+    }
+
+    .destination_container_info p {
+        width: 100%;
+    }
 }
 
 @media(max-width:900px) {
@@ -528,6 +549,36 @@ p {
     }
 }
 
+@media(max-width:780px) {
+    .destination {
+        background: url('./assets/destination/background-destination-desktop.jpg') no-repeat center center/cover;
+    }
+
+    .destination_container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 4rem 1rem;
+    }
+
+    .destination_footer {
+        justify-content: center;
+    }
+
+    .hr2 {
+        width: 100%;
+    }
+
+    .destination_nav {
+        justify-content: center;
+    }
+
+    .destination_container_info,
+    .destination_container_pic {
+        width: 550px;
+    }
+}
+
 @media(max-width:615px) {
     .home_conInfo {
         width: 100%;
@@ -569,6 +620,27 @@ p {
 
     .navbar.show-nav a span {
         display: inline;
+    }
+
+    .destination_container_info,
+    .destination_container_pic {
+        width: 95%;
+    }
+
+    .destination_nav a {
+        font-size: 15px;
+    }
+
+    .destination_container_info h1 {
+        font-size: 55px;
+    }
+
+    .destination_container_pic h1 {
+        font-size: 16px;
+    }
+
+    .destination_footer {
+        flex-direction: column;
     }
 
 }
