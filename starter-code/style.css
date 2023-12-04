@@ -223,14 +223,41 @@ body {
     font-size: 100px;
     font-family: var(--ff-serif);
     font-weight: 400;
+    margin-top: 2rem;
 }
 
 .destination_container_info p {
     font-size: 18px;
     color: var(--clr-light);
     line-height: 2;
+    margin-block: 2rem;
+    width: 80%;
 }
 
+.destination_footer {
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+}
 
+.hr2 {
+    width: 80%;
+    border: .1px solid #cccccc4f;
+}
+
+.des_footer h6 {
+    font-size: 14px;
+    padding-bottom: .5rem;
+    font-weight: 400;
+    color: var(--clr-light);
+    font-family: var(--ff-serif);
+}
+
+.destination_footer span {
+    font-size: 28px;
+    font-family: var(--ff-serif);
+}
 
 /* Destination-Moon Ends */
