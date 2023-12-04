@@ -397,12 +397,12 @@ p {
     width: 50%;
     display: flex;
     justify-content: start;
-    gap: 1.5rem;
+    gap: .5rem;
     align-items: center;
 }
 
 .nums {
-    padding-right: 1.5rem;
+    padding-right: 2.5rem;
 }
 
 #active {
@@ -516,6 +516,22 @@ p {
     .pilot img {
         width: 100%;
     }
+
+    .tech_container {
+        margin: 3rem 1rem;
+    }
+
+    .tech_infos {
+        width: 80%;
+    }
+
+    .tech_info h1 {
+        font-size: 45px;
+    }
+
+    .tech_pics {
+        margin-right: 0;
+    }
 }
 
 @media(max-width:900px) {
@@ -627,6 +643,43 @@ p {
     .destination_container_info,
     .destination_container_pic {
         width: 550px;
+    }
+
+    .tech_container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .tech_infos {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nums {
+        padding-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .nums .num {
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech_pics img {
+        width: 100%;
+    }
+
+    .tech_header {
+        margin-inline: 3rem 0;
+    }
+
+    .tech_header h1 {
+        font-size: 20px;
     }
 }
 
