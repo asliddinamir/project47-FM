@@ -454,6 +454,10 @@ p {
 
 /* Technology Ends */
 
+.menu {
+    display: none;
+}
+
 @media(max-width:1070px) {
     .home_conInfo {
         width: 80%;
@@ -522,4 +526,49 @@ p {
     .hr {
         width: 0;
     }
+}
+
+@media(max-width:615px) {
+    .home_conInfo {
+        width: 100%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .menu,
+    .logo {
+        display: block;
+        cursor: pointer;
+        margin: 2rem 1rem 0 0;
+        z-index: 3;
+    }
+
+    .navbar.show-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 5rem;
+        align-items: start;
+        padding-left: 1rem;
+        position: absolute;
+        height: 100%;
+        width: 70%;
+        background: #ffffff0D;
+        backdrop-filter: blur(1.5rem);
+        right: 0;
+        top: 0;
+        z-index: 2;
+    }
+
+    .navbar.show-nav a {
+        padding-block: .4rem;
+        margin-block: 1rem;
+    }
+
+    .navbar.show-nav a span {
+        display: inline;
+    }
+
 }
