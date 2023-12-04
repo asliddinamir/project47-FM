@@ -372,3 +372,12 @@ body {
 }
 
 /* Crew Ends */
+
+/* Technology Starts */
+
+.technology {
+    min-height: 100vh;
+    background: url('./assets/technology/background-technology-desktop.jpg') no-repeat center center/cover;
+}
+
+/* Technology Ends */
