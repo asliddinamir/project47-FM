@@ -494,6 +494,28 @@ p {
     .destination_container_info p {
         width: 100%;
     }
+
+    .crew {
+        height: auto;
+    }
+
+    .crew_container {
+        margin: 4rem 2rem;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .crew_pic,
+    .engineer,
+    .pilot {
+        width: 120%;
+    }
+
+    .crew_pic img,
+    .engineer img,
+    .pilot img {
+        width: 100%;
+    }
 }
 
 @media(max-width:900px) {
@@ -547,7 +569,36 @@ p {
     .hr {
         width: 0;
     }
+
+    .crew_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .crew_info p {
+        width: 100%;
+    }
+
+    .crew_pic,
+    .engineer,
+    .pilot {
+        width: 80%;
+    }
+
+    .crew_pic img,
+    .engineer img,
+    .pilot img {
+        width: 50%;
+    }
+
+    .crew_footer {
+        width: 100%;
+        justify-content: center;
+    }
 }
+
+
 
 @media(max-width:780px) {
     .destination {
@@ -643,4 +694,18 @@ p {
         flex-direction: column;
     }
 
+}
+
+@media(max-width:500px) {
+    .crew_info h2 {
+        font-size: 20px;
+    }
+
+    .crew_info h1 {
+        font-size: 30px;
+    }
+
+    .crew_container {
+        margin: 4rem 1rem;
+    }
 }
