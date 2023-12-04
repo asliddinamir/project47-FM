@@ -279,4 +279,16 @@ body {
     background: url('./assets/crew/background-crew-desktop.jpg') no-repeat center center /cover;
 }
 
+.crew_container {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin: 4rem 2rem 0 6rem;
+}
+
+.crew_pic {
+    width: 800px;
+    object-fit: cover;
+}
+
 /* Crew Ends */
