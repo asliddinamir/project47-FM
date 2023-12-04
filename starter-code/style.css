@@ -271,3 +271,12 @@ body {
 }
 
 /* Destination-Moon Ends */
+
+/* Crew Starts */
+
+.crew {
+    min-height: 100vh;
+    background: url('./assets/crew/background-crew-desktop.jpg') no-repeat center center /cover;
+}
+
+/* Crew Ends */
