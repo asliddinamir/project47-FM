@@ -166,5 +166,71 @@ body {
     background: url(./assets/destination/background-destination-desktop.jpg) no-repeat center/cover;
 }
 
+.destination_container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin: 4rem 6rem;
+}
+
+.destination_container_pic {
+    overflow: hidden;
+}
+
+.destination_container_pic h1 {
+    font-family: var(--ff-sans-cond);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
+}
+
+.destination_container_pic img {
+    animation: spin 150s infinite linear;
+}
+
+.destination_container_pic h1 span {
+    font-weight: bold;
+    color: #666;
+}
+
+.destination_container_info {
+    width: 50%;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
+}
+
+.destination_nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.destination_nav a {
+    color: var(--clr-light);
+    font-family: var(--ff-sans-cond);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.destination_container_info h1 {
+    font-size: 100px;
+    font-family: var(--ff-serif);
+    font-weight: 400;
+}
+
+.destination_container_info p {
+    font-size: 18px;
+    color: var(--clr-light);
+    line-height: 2;
+}
+
+
 
 /* Destination-Moon Ends */
