@@ -295,7 +295,7 @@ body {
 }
 
 .crew_pic {
-    width: 800px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -311,6 +311,57 @@ body {
 .crew_header h1 span {
     font-weight: bold;
     color: #666;
+}
+
+.crew_info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.crew_info h2 {
+    color: #b7b6b6;
+    font-family: var(--ff-serif);
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.crew_info h1 {
+    font-size: 55px;
+    font-family: var(--ff-serif);
+    font-weight: 400;
+}
+
+.crew_info p {
+    font-size: 18px;
+    width: 80%;
+    color: var(--clr-light);
+    line-height: 1.7;
+}
+
+.crew_footer {
+    display: flex;
+    gap: 1rem;
+}
+
+.crew_footer button {
+    background-color: #666;
+    border-radius: 50%;
+    padding: .6rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    gap: .3rem;
+    transition: .3s ease;
+}
+
+.crew_footer button:hover {
+    background-color: #9f9d9d;
+}
+
+.crew_footer button.active {
+    background-color: #fff;
 }
 
 /* Crew Ends */
